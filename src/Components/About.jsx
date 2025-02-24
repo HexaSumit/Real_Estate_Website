@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect,useState } from 'react'
 import aboutimg from '../assets/brand_img.png'
 
 function About() {
+
     return (
-        <div id='About' className=" container flex  mx-auto p-12 md:p-16 w-full items-center justify-center flex-col overflow-hidden" >
+        <div id='About' className={`move-to-center container flex mx-auto p-12 md:p-16 w-full items-center justify-center flex-col overflow-hidden`} >
             <h2 className=' font-bold text-2xl sm:text-3xl'>About
                 <span className=' underline underline-offset-4 decoration-1 pl-2 font-light'>Our Brand</span>
             </h2>

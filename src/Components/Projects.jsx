@@ -52,8 +52,8 @@ function Projects() {
       {/* IMAGES SECTION  */}
       <div className=' md:flex gap-4 overflow-hidden mt-10 '>
         {imagesbox.map((item)=>{
-          return <div key={item.id} className='relative overflow-hidden flex-shrink-0  w-full sm:w-1/4'>
-            <img src={item.image} alt="Image1" className="md:w-[95%] w-[80%] h-auto object-cover mb-8 transition-transform duration-300 hover:scale-y-95"/>
+          return <div key={item.id} className=' relative overflow-hidden flex-shrink-0  w-full sm:w-1/4'>
+            <img src={item.image} alt="Image1" className=" card md:w-[95%] w-[80%] h-auto object-cover mb-8 transition-transform duration-300 hover:scale-y-95"/>
             <div className=' absolute bottom-5 left-2 right-0 md:flex md:justify-center'>
               <div className=' inline-block bg-white px-2 md:px-4 md:py-2 shadow-md'>
                 <h4 className=' font-bold text-center'>{item.name}</h4>

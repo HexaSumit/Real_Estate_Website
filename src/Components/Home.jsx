@@ -6,7 +6,7 @@ function Home() {
     <div className=" min-h-screen bg-cover bg-center w-full" style={{ backgroundImage: `url(${headerImg})` }}>
       
       <div className=' flex flex-col items-center justify-center h-screen text-center px-4'>
-        <h2 className=' text-white md:text-5xl max-w-3xl font-bold pt-20 text-2xl'>Explore homes that </h2>
+        <h2 className=' typewriterheading text-white md:text-5xl max-w-3xl font-bold mt-20 text-2xl'>Explore homes that </h2>
         <h2 className=' text-white md:text-5xl max-w-3xl font-bold py-2 text-2xl'>fit your dreams</h2>
 
         <div className=" flex space-x-5 mt-10 ">

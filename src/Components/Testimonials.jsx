@@ -42,7 +42,7 @@ function Testimonials() {
 
             <div className=" md:flex flex-wrap gap-20 justify-center items-center ">
                 {Cards.map((card,index) => (
-                    <div className='bg-white h-[300px] py-2 px-4 flex items-center flex-col gap-2 border-0 rounded shadow-2xl my-[20px]' key={index}>
+                    <div className=' bg-white h-[300px] py-2 px-4 flex items-center flex-col gap-2 border-0 rounded shadow-2xl my-[20px]' key={index}>
                         <img src={card.img} alt="card" />
                         <p className=' font-bold text-lg'>{card.name}</p>
                         <img src={star} alt="star" />
